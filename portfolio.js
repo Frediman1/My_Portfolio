@@ -6,10 +6,10 @@ $(document).ready(function () {
             $('.navbar').removeClass('sticky');
         }
     });
-    // toggle menu/nav
-    $('.menu-btn').click(function () {
-        $('.navvar .menu').toggleClass('.active')
-    })
+    // // toggle menu/nav
+    // $('.menu-btn').click(function () {
+    //     $('.navvar .menu').toggleClass('.active')
+    // })
 });
 // typing animation
 var typed = new Typed(".typing", {
@@ -19,31 +19,31 @@ var typed = new Typed(".typing", {
     loop: true
 });
 // owl carousel script
-$('.carousel').owlCarouse1({
-    margin: 20,
-    loop: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPause: true,
-    responsive: {
-        0: {
-            items: 1,
-            nav: false
-        },
-        600: {
-            items: 2,
-            nav: false
-        },
-        1000: {
-            items: 3,
-            nav: false
-        },
-        1400: {
-            items: 4,
-            nav: false
-        },
-        2000: {
-            items: 5,
-            nav: false
-        }
-    }
-})
+// $('.carousel').owlCarouse1({
+//     margin: 20,
+//     loop: true,
+//     autoplayTimeOut: 2000,
+//     autoplayHoverPause: true,
+//     responsive: {
+//         0: {
+//             items: 1,
+//             nav: false
+//         },
+//         600: {
+//             items: 2,
+//             nav: false
+//         },
+//         1000: {
+//             items: 3,
+//             nav: false
+//         },
+//         1400: {
+//             items: 4,
+//             nav: false
+//         },
+//         2000: {
+//             items: 5,
+//             nav: false
+//         }
+//     }
+// })

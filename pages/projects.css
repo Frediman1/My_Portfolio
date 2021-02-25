@@ -1,5 +1,9 @@
 /* For Nav */
 
+body {
+    margin: 0;
+}
+
 * {
     text-decoration: none;
 }
@@ -8,7 +12,7 @@
     position: static;
     width: 100%;
     background-color: rgb(227, 119, 119);
-    padding: 30px 0;
+    padding: 11px;
     /* background: crimson; */
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
@@ -16,6 +20,10 @@
     margin-left: -8px;
     /* margin-right: 48px; */
     width: 100%;
+}
+
+.menu {
+    margin: 20px;
 }
 
 /* .navbar.sticky {
@@ -66,8 +74,10 @@
 
 header {
     text-align: center;
-    font-size: 50px;
+    margin-top: 26px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
     /* border: 1px solid red */
 }
 
@@ -80,7 +90,7 @@ header {
 }
 
 .grid-item {
-    background-color: rgb(207, 207, 186);
+    background-color: rgb(175, 235, 220);
     height: 400px;
     width: 500px;
     text-align: center
@@ -112,14 +122,14 @@ header {
 }
 
 .grid-item2 {
-    background-color: rgb(207, 207, 186);
+    background-color: rgb(175, 235, 220);
     height: 400px;
     width: 500px;
     text-align: center
 }
 
 .grid-item3 {
-    background-color: rgb(207, 207, 186);
+    background-color: rgb(175, 235, 220);
     height: 400px;
     width: 500px;
     text-align: center
@@ -159,7 +169,7 @@ header {
 }
 
 .grid-item4 {
-    background-color: rgb(207, 207, 186);
+    background-color: rgb(175, 235, 220);
     height: 400px;
     width: 500px;
     text-align: center
@@ -179,7 +189,7 @@ header {
 
 .fab {
     color: rgb(3, 3, 3);
-    font-size: 40px;
+    font-size: 25px;
     margin: 10px;
 }
 
@@ -193,10 +203,34 @@ header {
     text-align: center;
     font-size: 20px;
     background-color: rgb(227, 119, 119);
-    padding: 10px;
+    margin-right: -14px;
+    /* padding: 10px; */
+    /* margin-top: 277px;
+    margin-left: -8px;
+    margin-right: -8px; */
 }
 
 .footer-social-icons p {
     text-align: center;
     color: black;
+}
+
+.fa-github:before {
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(20, 23, 24);
+}
+
+.fa-linkedin:before {
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(20, 23, 24);
+}
+
+.fa-github:after:hover {
+    color: rgb(17, 226, 226);
+}
+
+.fa-linkedin:after:hover {
+    color: rgb(17, 226, 226);
 }

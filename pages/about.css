@@ -96,7 +96,25 @@ body {
 
 /* image edit */
 
-.image-float img {
+/* .image-float img {
+    float: left;
+    position: static;
+    top: 19.5em;
+    left: 37px;
+} */
+
+/* testing */
+
+.testing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center */
+}
+
+.image-float {
+    margin: 89px;
+    padding: 28px;
     float: left;
     position: static;
     top: 19.5em;
@@ -104,8 +122,20 @@ body {
 }
 
 .max-width img {
-    width: 449px;
+    width: 325px;
     height: auto;
+    display: flex;
+    flex-flow: row;
+    margin-left: -100px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 197px;
 }
 
 /* .home .max-width {
@@ -117,9 +147,9 @@ body {
 }
 
 .home .home-content .text-2 {
-    font-size: 70px;
-    font-weight: 600;
-    margin-left: -3px
+    font-size: 54px;
+    font-weight: 500;
+    margin-left: -2px;
 }
 
 .home .home-content .text-3 {
@@ -168,7 +198,7 @@ body {
 
 /* About me section */
 
-.about .title::after {
+/* .about .title::after {
     content: "Who am I";
     position: absolute;
     bottom: -35px;
@@ -179,7 +209,7 @@ body {
     background: whitesmoke;
     transition: translateX(-50%);
     text-align: center;
-}
+} */
 
 h2.title {
     text-align: center;
@@ -212,14 +242,14 @@ h2.title {
 
 .about .about-content .right p {
     text-align: center;
-    font-size: 29px
+    font-size: 19px
 }
 
 .about .about-content .right a {
     display: inline-block;
     background: rgb(227, 119, 119);
     color: black;
-    font-size: 22px;
+    font-size: 14px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
@@ -257,4 +287,24 @@ h2.title {
 .footer-social-icons p {
     text-align: center;
     color: black;
+}
+
+.fa-github:before {
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(20, 23, 24);
+}
+
+.fa-linkedin:before {
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(20, 23, 24);
+}
+
+.fa-github:after:hover {
+    color: rgb(17, 226, 226);
+}
+
+.fa-linkedin:after:hover {
+    color: rgb(17, 226, 226);
 }

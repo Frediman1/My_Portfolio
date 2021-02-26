@@ -155,6 +155,9 @@ body {
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
+    height: 135px;
+    width: 361px;
+    text-align: center
 }
 
 .home .home-content .text-3 span {

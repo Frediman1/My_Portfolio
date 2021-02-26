@@ -13,7 +13,7 @@ $(document).ready(function () {
 });
 // typing animation
 var typed = new Typed(".typing", {
-    strings: ["Immigrant", "Extrovert", "Team Player", "Go Getter", "Software Engineer"],
+    strings: [" An Immigrant", " An Extrovert", " A Team Player", "An Influential Communicator", " A Software Engineer"],
     typeSpeed: 30,
     backSpeed: 20,
     loop: true

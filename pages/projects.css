@@ -97,7 +97,7 @@ header {
 }
 
 .grid-item img {
-    object-fit: contain;
+    object-fit: fill;
     width: 94%;
     height: 275px;
 }
@@ -136,13 +136,13 @@ header {
 }
 
 .grid-item3 img {
-    object-fit: contain;
+    object-fit: fill;
     width: 94%;
     height: 275px;
 }
 
 .grid-item2 img {
-    object-fit: contain;
+    object-fit: fill;
     width: 94%;
     height: 275px;
 }
@@ -176,7 +176,7 @@ header {
 }
 
 .grid-item4 img {
-    object-fit: contain;
+    object-fit: fill;
     width: 94%;
     height: 275px;
 }

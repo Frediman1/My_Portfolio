@@ -241,3 +241,14 @@ header {
     width: 24px;
     height: 24px;
 }
+
+/* Languages edit */
+
+.languages {
+    font-size: 20px;
+    text-align: center;
+}
+
+.languages li {
+    font-size: 12px;
+}

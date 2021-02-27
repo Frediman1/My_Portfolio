@@ -234,3 +234,10 @@ header {
 .fa-linkedin:after:hover {
     color: rgb(17, 226, 226);
 }
+
+/* NetLIFY Logo */
+
+.iconify {
+    width: 24px;
+    height: 24px;
+}
